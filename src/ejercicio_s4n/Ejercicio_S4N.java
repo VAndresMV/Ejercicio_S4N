@@ -154,18 +154,14 @@ public class Ejercicio_S4N extends javax.swing.JFrame {
                     if (i % num == 0) {
                         if (i % 3 == 0 && i % 5 == 0) {
                             txt_Resultado.append("FizzBuzz\n");
-                            //System.out.println("FizzBuzz");
                         } else {
                             if (i % 3 == 0) {
                                 txt_Resultado.append("Fizz\n");
-                                //System.out.println("Fizz");
                             } else {
                                 if (i % 5 == 0) {
                                     txt_Resultado.append("Buzz\n");
-                                    //System.out.println("Buzz");
                                 } else {
                                     txt_Resultado.append(String.valueOf(i) + "\n");
-                                    //System.out.println(i);
                                 }
                             }
                         }
