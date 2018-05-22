@@ -22,7 +22,7 @@ public class Ejerc_S4N {
         // Multiplos de 5 imprimir "Buzz"
         
         Scanner scn = new Scanner(System.in);
-        int num = 0, limite = 30;
+        int num = 0, limite = 100;
 
         System.out.println("Ingresar numero para calcular multiplo:");
         num = scn.nextInt();
